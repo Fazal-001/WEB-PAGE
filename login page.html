@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>ThreadHarbor</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="ab">
+  <div class="form">
+     <div class="buttons">
+        <div id="btn"></div>
+        <button type="button" class="bttn" onclick="login()"> Login </button>
+        <button type="button" class="bttn" onclick="Signin()"> Sign in </button>
+     </div>
+     <form id="login" class="input">
+        <input type="text" class="input-field" placeholder="User id" required>
+        <br>
+        <input type="text" class="input-field" placeholder="Enter Password " required> 
+        <br>
+        <br>
+        <input type="checkbox" class="check-box"><span>Forget Password?</span>
+        <button type="submit" class="sub-btn"><a href="grocery.html">Log in</a> </button>
+        
+         
+        </form>
+        <form id="Sign-in" class="input">
+      
+         <br><!--user input feild and put required function on it so its compelssory to input users information to login or singup-->
+         <input type="text" class="input-field" placeholder="User Name" required>
+         <input type="email" class="input-field" placeholder="Email id" required>
+         <input type="text" class="input-field" placeholder="Enter Password " required> 
+         <br>
+         <br>
+         <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+         <button type="submit" class="sub-btn"><a href="grocery.html">Sign in</a> </button>
+         
+          
+         </form>
+ 
+
+    
+    
+
+    </div>
+</div>
+<!--a liitle bit of javacsript function is used to make login page more attractive-->
+<script> 
+var x = document.getElementById("login");
+var y = document.getElementById("Sign-in");
+var z = document.getElementById("btn");
+function Signin(){
+x.style.left="-400px";
+y.style.left="50px";
+z.style.left="110px";
+}
+
+function login(){
+x.style.left="50px";
+y.style.left="450px";
+z.style.left="0px";
+}
+</script>
+</body>
+</html>
