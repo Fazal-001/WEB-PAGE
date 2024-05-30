@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    
+    body{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(ragba(0,0,0,0.4),ragba(0,0,0,0.4));
+        background: url(login.jpg);
+        background-position: center;
+        position: absolute;
+        background-size: cover;
+        
+    }
+    
+    .form{
+        width: 300px;
+        height: 380px;
+        position: relative;
+        margin: 6% auto;
+        background: #fff;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.833);
+        overflow: hidden;
+    
+    }
+    .buttons{
+        width: 220px;
+        margin: 30px auto;
+        position: relative;
+        box-shadow: 0 0 20px 9px #0000001f;
+        border-radius: 30px;
+        -webkit-text-fill-color: rgb(255, 250, 250);
+    }
+    .bttn{
+       
+     padding: 10px 30px;
+     cursor: pointer;
+     background: transparent;
+     border: 0;
+     outline: none;
+     position: relative;
+    }
+    #btn{
+       top: 0; 
+       left: 0;
+       position: absolute;
+       width: 110px;
+       height: 100%;
+       background:linear-gradient(to right,#690505,#dddfea) ;
+       border-radius: 30px;
+       transition: 0.5s;
+    
+    
+    }
+    .icons{
+    margin: 10px ;
+    
+    text-align: center;
+    }
+    
+    .input{
+    -webkit-text-fill-color: aliceblue;
+    
+    margin: 0px 0px;
+    position: relative;
+    width: 220px ;
+    transition: 0.5s;
+    }
+    .input-field{
+      
+    top: 100px;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 2px solid rgb(210, 221, 220);
+    margin: 10px 5px;
+    outline: none;
+    background: transparent;
+    }
+    .sub-btn{
+        -webkit-text-fill-color: rgb(225, 225, 225);
+    width: 80%;
+    padding: 15px 10px ;
+    cursor: pointer;
+    display: block;
+    margin: 90px 60px;
+    background:linear-gradient(to right,#690505,#dddfea) ;
+    border: 0;
+    outline: none;
+    border-radius: 30px ;
+    }
+    #login{
+       left:10px; 
+       
+    }
+    #Sign-in{
+        top: -360px;
+    left: 400px;
+    margin:10px  0px;
+    
+    }
+    .sub-btn{
+        margin: 80px 20px;
+        
+    
+    }
